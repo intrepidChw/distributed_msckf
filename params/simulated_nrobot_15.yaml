@@ -1,0 +1,31 @@
+
+# general parameters
+max_num_cam: 20
+stereo_msckf: True
+stereo_obj: True
+update_with_qr: True
+
+use_msckf: True
+include_obj: True
+consensus_average: False
+save_result: True
+
+# noise
+motion_noise: 0.01
+geo_obs_noise: 0.03
+obj_obs_noise: 0.03
+
+# msckf params
+msckf_feat_reproj_thre: 4
+geo_motion_check: True
+msckf_vis_fnum_thre: 3
+
+# object params
+obj_init_fnum_thre: 3
+obj_init_dist_min_thre: 1
+obj_init_dist_max_thre: 10
+common_mu_thre: 0.1
+obj_init_reproj_thre: 4
+obj_update_reproj_thre: 0.02
+pose_fuse_update_thre: 1
+obj_fuse_update_thre: 100
