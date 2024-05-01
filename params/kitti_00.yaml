@@ -7,7 +7,7 @@ update_with_qr: False
 
 use_msckf: True
 include_obj: True
-consensus_average: False
+consensus_average: True
 save_result: True
 
 # noise
