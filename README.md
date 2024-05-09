@@ -28,3 +28,14 @@ To evaluate the results on simulation with 15 robots
 ```shell
 python evaluate_results.py --dataset simulated --data_id nrobot_15
 ```
+
+## Citation
+If you find this work useful, please consider to cite our paper:
+```
+@article{cao2024multi,
+  title={{Multi-Robot Object SLAM using Distributed Variational Inference}},
+  author={Cao, Hanwen and Shreedharan, Sriram and Atanasov, Nikolay},
+  journal={arXiv preprint arXiv:2404.18331},
+  year={2024}
+}
+```
